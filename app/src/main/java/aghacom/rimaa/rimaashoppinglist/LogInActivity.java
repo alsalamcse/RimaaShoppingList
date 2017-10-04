@@ -2,16 +2,17 @@ package aghacom.rimaa.rimaashoppinglist;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class LogInActivity extends AppCompatActivity
+public class LogInActivity extends AppCompatActivity implements View.OnClickListener
 {
-    private EditText idEmail;
-    private EditText idPassw;
-    private Button btnLogin;
-    private Button btnSignUp;
+    private EditText etEmail;
+    private EditText etPassw;
+    private Button btnIn;
+    private Button btnUp;
     private Button btnForget;
 
 
@@ -19,10 +20,21 @@ public class LogInActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
-        idEmail= (EditText) findViewById(R.id.idEmail);
-        idPassw= (EditText) findViewById(R.id.idPassw);
-        btnLogin= (Button) findViewById(R.id.btnLogin);
-        btnSignUp= (Button) findViewById(R.id.btnSignUp);
+        etEmail= (EditText) findViewById(R.id.etEmail);
+        etPassw= (EditText) findViewById(R.id.etPassw);
+        btnIn= (Button) findViewById(R.id.btnIn);
+        btnUp= (Button) findViewById(R.id.btnUp);
         btnForget= (Button) findViewById(R.id.btnForget);
+    }
+
+    @Override
+    public void onClick(View view)
+    {
+        if (view==btnIn)
+        {
+
+        }
+
+
     }
 }
