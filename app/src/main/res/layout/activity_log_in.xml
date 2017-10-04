@@ -24,8 +24,8 @@
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="46dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="76dp" />
 
     <EditText
         android:id="@+id/idPassw"
@@ -35,7 +35,7 @@
         android:hint="Password"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="136dp" />
+        tools:layout_editor_absoluteY="159dp" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -43,14 +43,22 @@
         android:layout_height="wrap_content"
         android:text="Login"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="214dp" />
+        tools:layout_editor_absoluteY="256dp" />
 
     <Button
-        android:id="@+id/btnSignIn"
+        android:id="@+id/btnSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign up"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="282dp" />
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <Button
+        android:id="@+id/btnForget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="248dp" />
 
 </android.support.constraint.ConstraintLayout>
